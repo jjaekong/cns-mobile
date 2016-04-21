@@ -113,21 +113,23 @@
                     </ul>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="result-1">
-                            <figure class="client">
-                                <img class="img-responsive" src="images/img_client.jpg">
-                                <figcaption>
-                                    <h4>한국폴리텍 대학 광주캠퍼스 공학관 및 수위실</h4>
-                                    <address>광주시 북구 운암동 250-17외 11필지</address>
-                                    <dl>
-                                        <dt>대지면적</dt>
-                                        <dd>47,566.38㎡</dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>건축면적</dt>
-                                        <dd>3,851.38㎡</dd>
-                                    </dl>
-                                </figcaption>
-                            </figure>
+                            <a href="" data-toggle="modal" data-target="#project-id-1">
+                                <figure class="client">
+                                    <img class="img-responsive" src="images/img_client.jpg">
+                                    <figcaption>
+                                        <h4>한국폴리텍 대학 광주캠퍼스 공학관 및 수위실</h4>
+                                        <address>광주시 북구 운암동 250-17외 11필지</address>
+                                        <dl>
+                                            <dt>대지면적</dt>
+                                            <dd>47,566.38㎡</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>건축면적</dt>
+                                            <dd>3,851.38㎡</dd>
+                                        </dl>
+                                    </figcaption>
+                                </figure>
+                            </a>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="result-2">#2</div>
                         <div role="tabpanel" class="tab-pane" id="result-3">#3</div>
@@ -218,6 +220,51 @@
             </section>
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
+    </div>
+    <div class="modal fade project-modal" tabindex="-1" role="dialog" id="project-id-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <figure class="row">
+                        <p class="col-xs-6">
+                            <img class="img-responsive" src="images/img_project.jpg">
+                        </p>
+                        <figcaption class="col-xs-6">
+                            <span class="bar"></span>
+                            <h4>전주우림 중 외 4교<br>익산성당초등학교</h4>
+                            <address>전주시 완산구 효자동 2가 1199-3번지</address>
+                        </figcaption>
+                    </figure>
+                    <table class="table">
+                        <colgroup>
+                            <col style="width: 100px">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>구성원</th>
+                                <td>대지면적 13,896.0m2 (4210.0py)</td>
+                            </tr>
+                            <tr>
+                                <th>규모</th>
+                                <td>건축면적 2,695.92m2</td>
+                            </tr>
+                            <tr>
+                                <th>운영방법</th>
+                                <td>규모 지하1층, 지상3층</td>
+                            </tr>
+                            <tr>
+                                <th>특징</th>
+                                <td>구조</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-close" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
