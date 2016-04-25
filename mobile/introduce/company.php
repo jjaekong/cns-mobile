@@ -18,7 +18,7 @@
                     <span class="bar" role="presentation"></span>
                     <h3 class="title">씨엔에스의 인재상</h3>
                 </div>
-                <div class="notice-list">
+                <div class="board-list">
                     <table class="table">
                         <colgroup>
                             <col>

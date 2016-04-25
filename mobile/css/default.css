@@ -982,6 +982,22 @@ ul, ol {
       background-size: 23px auto; }
 .sub.business.pm .chart {
   margin-bottom: 40px; }
+.sub.business.fm .overview img {
+  margin-bottom: 10px; }
+.sub.business.fm .figure {
+  margin-bottom: 10px; }
+  .sub.business.fm .figure.row {
+    margin-left: -3px;
+    margin-right: -3px; }
+    .sub.business.fm .figure.row > p {
+      padding-left: 3px;
+      padding-right: 3px; }
+.sub.business.fm .nav-tabs li:last-child {
+  letter-spacing: -1px; }
+.sub.business.fm .chart {
+  margin-bottom: 30px; }
+.sub.business.fm #service-6 .chart {
+  margin-top: 30px; }
 
 .sub.perform .project-tabs {
   margin-top: 25px;
